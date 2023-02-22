@@ -1,0 +1,56 @@
+/* the navigation bar styling */
+
+.header{
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: linear-gradient(rgba(1.4,9,30,0.7),rgba(1.4,9,30,0.7)),url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+    align-items: center;
+}
+
+.menu-div{
+    flex: 1;
+    text-align: right;
+}
+
+.menu-div ul li{
+    display: inline-block;
+    margin: 10px 10px;
+    list-style: none;
+}
+
+.menu-div ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.dropdownicon {
+    display: none !important;
+}
+/* responsive navbar */
+
+@media only screen and (max-width: 680px) {
+    .dropdownicon{
+       display: block !important;
+   }
+
+    .menu-div ul li:not(:nth-child(6))  {
+        display: none;
+    }
+
+   
+   .responsive {
+    background-color: red;
+    display: inline;
+    transition: 2s;
+   }
+}
