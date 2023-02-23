@@ -1,4 +1,13 @@
 /* the navigation bar styling */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
 
 .header{
     min-height: 100vh;
@@ -8,16 +17,36 @@
     background-size: cover;
     position: relative;
 }
+div.wrapper {
+    padding-top: 20px;
+}
+
 
 .nav {
-    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    display: inline;
     justify-content: space-between;
-    padding: 2% 6%;
+    padding: 1% 7%;
     align-items: center;
+    position: relative;
+    
+}
+
+div.lg a img {
+    max-width: 200px;
+    max-height: 50px;
+    top: 10px;
+    max-width: 100%;
+
 }
 
 .menu-div{
     flex: 1;
+    text-align: right;
+}
+
+.menu-div ul {
     text-align: right;
 }
 
@@ -28,29 +57,68 @@
 }
 
 .menu-div ul li a {
+    font-size: 14px;
+    line-height: 11.7px;
+    font-family: 'Poppins',sans-serif;
+
     text-decoration: none;
     color: #fff;
 
 }
 
-.dropdownicon {
-    display: none !important;
+div.menu-div  li.dropdownicon a {
+    font-size: 14px;
+    line-height: 11.7px;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    color: #fff;
+    display: none ;
+}
+
+div.menu-div  li.dropdownicon {
+    list-style: none;
 }
 /* responsive navbar */
 
 @media only screen and (max-width: 680px) {
-    .dropdownicon{
-       display: block !important;
-   }
-
-    .menu-div ul li:not(:nth-child(6))  {
+    .menu-div ul li  {
         display: none;
     }
+     
+    nav.nav {
+        padding: 2% 0;
+    }
+    div.menu-div  li.dropdownicon a{
+    position: absolute;
+    display: block; 
+    float: right;
+    top: 25px;
+    right: 30px;
+    
+    }
+
 
    
-   .responsive {
-    background-color: red;
-    display: inline;
+    div.menu-div.responsive { 
+    position: fixed;
+    min-width: 170px;
+    min-height: 100vh;
+    top: 0;
+    right: 0;
+    background-color:#E74133;
     transition: 2s;
+    padding-top: 70px;
+   }
+    .menu-div.responsive ul  {
+      text-align: left;
+    }
+   .menu-div.responsive ul li  {
+    display: block;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 17px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+
+    
    }
 }
