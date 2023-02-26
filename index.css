@@ -44,6 +44,7 @@ div.lg a img {
 .menu-div{
     flex: 1;
     text-align: right;
+
 }
 
 .menu-div ul {
@@ -119,16 +120,17 @@ div.menu-div  li.dropdownicon {
    
     div.menu-div.responsive { 
     position: fixed;
-    min-height: 100vh;
     top: 0;
     right: 0;
     background-color:#E74133;
     padding: 0;
     min-width: 180px;
+    min-height: 100vh;
     padding-top: 70px;
     z-index: 2;
     margin: 0;
-    transition: ease-out  0.5s;
+    transition: 1s;
+    transition-property: none;
    }
    
     .menu-div.responsive ul  {
