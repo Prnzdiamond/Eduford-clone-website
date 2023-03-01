@@ -1,0 +1,44 @@
+.cou-wrapper1  {
+     text-align: center;
+     margin-top: 70px;
+}
+
+.cou-wrapper1 h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+
+.cou-wrapper2 {
+    margin: 50px 0;
+    margin-bottom: 100px;
+}
+
+.cou-bx {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FDF3F3;
+    width: 22.7%;
+    height: inherit;
+    margin: 10px;
+    padding: 2%;
+    transition: 1s;
+}
+
+.cou-bx:hover {
+    -webkit-box-shadow: 2px 2px 11px 11px rgb(235, 235, 235, 1);
+    -moz-box-shadow: 2px 2px 11px 11px rgb(235, 235, 235, 1);
+    box-shadow: 2px 2px 11px 11px rgb(235, 235, 235), 1;
+    transition: 1s;
+}
+
+.cou-bx h3 {
+    margin-bottom: 20px
+}
+
+@media (max-width:700px) {
+    .cou-bx {
+        width: 80%;
+        min-height: 157px;
+    }
+}
