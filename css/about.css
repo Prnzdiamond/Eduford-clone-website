@@ -1,0 +1,75 @@
+/* header for the about page */
+
+.header{
+    min-height: 50vh;
+    min-width: 100%;
+    background-image: linear-gradient(rgba(1.4,9,30,0.6),rgba(1.4,9,30,0.6)),url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+div.wlcm-txt h1 {
+    margin-top: 60px;
+    font-size: 34px;
+}
+
+
+.wrapper1 {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.abt-txt {
+    width: 38.5%;
+}
+
+.col-4 {
+    padding: 0 1%;
+}
+.abt-txt h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+
+.abt-txt p {
+    line-height: 21px;
+    text-transform: none;
+    text-indent: unset;
+}
+
+.visit-us {
+    border: 1px solid red;
+    color: red;
+    text-transform: capitalize;
+    transition: 0.8s;
+}
+
+.visit-us:hover {
+    color: #FFF;
+}
+
+.abt-img  {
+   width: 38.5% ;
+   height: 26.3%;
+}
+
+.abt-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (max-width: 700px) {
+  .wrapper1 div {
+    width: 80%;
+    padding: 2.5% 0;
+
+  }
+
+  .wrapper1 {
+    margin-bottom: 200px;
+  }
+}
