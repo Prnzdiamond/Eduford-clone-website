@@ -11,7 +11,7 @@
 
 .cou-wrapper2 {
     margin: 50px 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .cou-bx {
@@ -40,5 +40,49 @@
     .cou-bx {
         width: 80%;
         min-height: 157px;
+    }
+}
+
+.cou-wrapper3 {
+    display: block;
+    text-align: center;
+}
+
+
+.cou-wrapper3 h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+
+.cou-wrapper4 {
+    margin: 20px 0;
+    
+}
+
+.cou-bx2 {
+    text-align: left;
+    border-radius: 10px;
+    text-indent: unset;
+    margin: 0 10px;
+}
+
+.cou-bx2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cou-bx2 h4,p {
+    margin: 10px;
+
+}
+
+@media (max-width: 700px) {
+    .cou-bx2 {
+        width: 80%;
+        padding: 1.5%;
+    }
+    .cou-wrapper4 {
+        margin-bottom: 50px;
     }
 }
