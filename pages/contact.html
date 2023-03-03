@@ -8,6 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/contact.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet" sameSite = lax>  
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -46,23 +49,46 @@
 
         <!-- header text -->
         <div class="wlcm-txt">
-            <h1>About Us</h1>
+            <h1>Contact us</h1>
         </div>
     </section>
-    <!-- about section -->
-    <section class="abt-sec container">
-        <div class="wrapper1 row">
-            <div class="abt-txt col-4">
-                <h1>We are the World's largest University</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, libero. Quibusdam, reprehenderit fuga saepe voluptas debitis eaque, error cum aut culpa, iste aperiam modi consequuntur nobis corporis vitae sit atque. Neque natus perferendis, odit placeat provident libero quo repellat enim itaque esse rem earum magnam optio et saepe, aut porro.</p>
-                <button class="visit-us">explore Now</button>
+    <!-- map section -->
+     <section class="map container">
+        <div class="map-bx">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63406.95497097389!2d3.213030763822751!3d6.655017822419747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b99f789473353%3A0x18456e3e38c27173!2s43%20Church%20St%2C%20Alagbado%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1677832237432!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+     </section>
+     <section class="address-bx container">
+        <div class="address-wrapper">
+            <div class="col-12">
+                <h3><span class="material-icons">
+                    share_location
+                    </span>XYZ Road, ABC Building</h3>
+                <p>    Bangalore, Karnataka, IN</p>
             </div>
-            <div class="abt-img col-4">
-                <img src="../images/about.jpg" alt="About us">
+            <div class="col-12">
+                <h3><span class="material-icons">
+                    call 
+                    </span>+2329088781410</h3>
+                <p>  Monday to Saturday,10AM to 6PM</p>
+            </div>
+            <div class="col-12">
+                <h3><span class="material-icons">
+                    email 
+                    </span>Oseahumenagboifoh@gmail.com</h3>
+                <p>Email us your query</p>
             </div>
         </div>
-
-    </section>
+     </section>
+     <section class="contact-form container">
+            <form action="">
+                <div><input type="text" name="" id="name" placeholder="enter your name"></div>
+               <div> <input type="email" name="" id="email" placeholder="enter your email"></div>
+                <div><input type="text" name="" id="subject" placeholder="enter subject"></div>
+                <div><textarea name="" id="message" cols="30" rows="10" placeholder="message"></textarea></div>
+                <button class="visit-us">send message</button>
+            </form>
+     </section>
 
     <!-- footer  -->
     <div class="footer container">
