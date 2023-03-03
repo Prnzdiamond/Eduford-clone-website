@@ -1,6 +1,6 @@
-.cou-wrapper1  {
-     text-align: center;
-     margin-top: 70px;
+.cou-wrapper1 {
+    text-align: center;
+    margin-top: 70px;
 }
 
 .cou-wrapper1 h1 {
@@ -57,7 +57,7 @@
 
 .cou-wrapper4 {
     margin: 20px 0;
-    
+
 }
 
 .cou-bx2 {
@@ -72,7 +72,8 @@
     border-radius: 10px;
 }
 
-.cou-bx2 h4,p {
+.cou-bx2 h4,
+p {
     margin: 10px;
 
 }
@@ -82,6 +83,7 @@
         width: 80%;
         padding: 1.5%;
     }
+
     .cou-wrapper4 {
         margin-bottom: 50px;
     }

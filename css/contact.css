@@ -5,13 +5,13 @@
 
 .address-wrapper {
     width: 80%;
-    margin: 0 auto  ;
+    margin: 0 auto;
     display: block;
 }
 
 .address-wrapper .col-12 {
     width: 100%;
-    margin: 20px 0 0 ;
+    margin: 20px 0 0;
     justify-content: space-between;
     text-align: left;
 }
@@ -20,6 +20,7 @@
     margin-bottom: 20px;
     width: fit-content;
 }
+
 .address-wrapper .col-12 p {
     width: 100%;
     text-indent: unset;
@@ -33,11 +34,12 @@
 }
 
 .contact-form form div {
-  margin: 20px 0;
-  width: 100%;
+    margin: 20px 0;
+    width: 100%;
 }
 
-.contact-form form input,textarea {
+.contact-form form input,
+textarea {
     width: 100%;
     padding: 10px 5px;
     border: 1px solid #CACACA;

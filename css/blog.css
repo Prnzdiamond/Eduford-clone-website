@@ -2,9 +2,11 @@
     margin: 50px 0 120px;
 }
 
-.blog-col1,.blog-col2{
+.blog-col1,
+.blog-col2 {
     margin: 0 10px;
 }
+
 .blog-col1 {
     width: 51%;
     justify-content: center;
@@ -32,24 +34,28 @@
     display: block;
     margin: 0 auto;
 }
+
 .blog-form div {
     margin-top: 20px;
 }
 
-.blog-form input,textarea {
+.blog-form input,
+textarea {
     width: 95%;
     padding: 10px;
     background-color: #F0F0F0;
 }
 
-.blog-form input,textarea {
+.blog-form input,
+textarea {
     border: 0;
 }
 
 .blog-form textarea {
-  resize: none;
-  padding: 10px;
+    resize: none;
+    padding: 10px;
 }
+
 .visit-us {
     margin-top: 40px;
     border: 1px solid red;
@@ -57,10 +63,12 @@
     text-transform: capitalize;
     transition: 0.8s;
 }
+
 .blog-col2 {
     width: 27.75%;
     text-align: center;
 }
+
 .blog-col2 h3 {
     background-color: #E74040;
     text-align: center;
@@ -78,7 +86,9 @@
 }
 
 @media (max-width:700px) {
-    .blog-col1,.blog-col2 {
+
+    .blog-col1,
+    .blog-col2 {
         width: 80%;
         margin: 20px;
     }
